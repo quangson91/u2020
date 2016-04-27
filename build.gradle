@@ -202,3 +202,5 @@ android.applicationVariants.all { variant ->
 android.testVariants.all { variant ->
   tasks.getByName('assemble').dependsOn variant.assemble
 }
+
+// Just change for test CI
